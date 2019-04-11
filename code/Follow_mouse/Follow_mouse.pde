@@ -10,10 +10,10 @@ void draw(){
   ellipse(x,y,60,60);
   x=x+c;
   y=y+c;
-  if(x>width){
+  if(x>width-30){
     c=-1;
   }
-  if(x<0){
+  if(x<30){
     c=1;
   }
 }
